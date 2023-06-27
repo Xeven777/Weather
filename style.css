@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5em;
+    color: #1a7557;
+    padding: 0 0 1.25rem 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #6cc5a7, #ccfcec, #9eecd2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 25px;
+    border: solid 0.3px #74f7da;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-box {
+    position: relative;
+    display: inline-block;
+}
+
+#search {
+    padding-right: 15vw;
+}
+
+#search-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 1.5rem;
+    transform: translateY(-50%);
+    border: none;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+    border-radius: 1.8rem;
+    cursor: pointer;
+    background-color: #55dfc1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#search-btn:hover {
+    background: linear-gradient(#91f7d5, #61dbc1);
+    box-shadow: 0 4px 10px #74eed3ab;
+
+}
+
+
+#search-btn i {
+    color: #ffffff;
+}
+
+.weather {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.weather h2 {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: clamp(2rem, 6vw, 3rem);
+}
+
+.weather img {
+    margin-top: 1rem;
+    width: clamp(7.5rem, 25vw, 12rem);
+}
+
+.weather p {
+    margin: 1rem 0;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+}
+
+.weather .temp {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.weather .conditions {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 400;
+    color: #869691;
+    margin-bottom: 1rem;
+}
+
+.weather .location {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 400;
+    color: #869691;
+}

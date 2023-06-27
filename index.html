@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <header>Weather</header>
+    <form id="form">
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search By City/Location" autocomplete="off">
+            <button id="search-btn"><i class="fa fa-search"></i></button>
+        </div>
+    </form>
+    <main id="main">
+        <div class="weather">
+            <h2><span class="location"></span></h2>
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/661/661337.png?w=740&t=st=1687855179~exp=1687855779~hmac=97d94d0ee74c8b76a6155f54d783b8da2fb4e7d4d96ec1f2fc3e173350542e86" >
+            <p class="conditions"></p>
+            <p class="temp"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
