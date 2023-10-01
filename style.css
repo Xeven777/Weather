@@ -96,7 +96,7 @@ input:focus {
 
 .weather p {
     margin: 1rem 0;
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(1rem, 3vw, 1.6rem);
 }
 
 .weather .temp {
@@ -106,14 +106,14 @@ input:focus {
 }
 
 .weather .conditions {
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(1rem, 3vw, 1.6rem);
     font-weight: 400;
     color: #869691;
     margin-bottom: 1rem;
 }
 
 .weather .location {
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-size: clamp(1rem, 3vw, 1.6rem);
     font-weight: 400;
     color: #869691;
 }
