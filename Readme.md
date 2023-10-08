@@ -4,7 +4,6 @@ A basic web application that provides current weather information for a specifie
 
 ## Demo
 
-
 ## Features
 
 - **Weather Information:** Get current weather details for a specific location.
