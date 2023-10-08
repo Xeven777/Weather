@@ -4,25 +4,27 @@
     box-sizing: border-box;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 2.5em;
-    color: #1a7557;
-    padding: 0 0 1.25rem 0;
-}
-
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(120deg, #6cc5a7, #ccfcec, #9eecd2);
+    background: linear-gradient(50deg, #91ffce 0%, #79e0ff 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    color: rgb(34, 104, 79);
+    padding: 0 0 1.25rem 0;
+}
+
+
 
 input {
     padding: 1rem;
@@ -41,22 +43,26 @@ input:focus {
 
 .search-box {
     position: relative;
-    display: inline-block;
+    width: clamp(300px, 50vw, 600px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #search {
     padding-right: 15vw;
+    width: clamp(300px, 50vw, 600px);
 }
 
 #search-btn {
     position: absolute;
     top: 50%;
-    right: 0;
-    padding: 1.5rem;
+    right: -20px;
+    padding: 1.2rem;
     transform: translateY(-50%);
     border: none;
     font-size: clamp(1rem, 4vw, 1.5rem);
-    border-radius: 1.8rem;
+    border-radius: 50%;
     cursor: pointer;
     background-color: #55dfc1;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -68,17 +74,17 @@ input:focus {
 
 }
 
-
 #search-btn i {
     color: #ffffff;
 }
 
 .weather {
     text-align: center;
+    width: clamp(300px, 30vw, 600px);
     font-size: 2rem;
     margin-top: 2rem;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     background-color: #fff;
 }
