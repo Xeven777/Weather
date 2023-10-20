@@ -46,11 +46,9 @@ You can customize this weather page in various ways:
 - Customize the font family and styles to match your design preferences.
 
 ## Credits
-- Weather data is retrieved from a weather API (provide the API source if applicable).
+- Weather data is retrieved from a Openweather API.
 - Icons are provided by Font Awesome.
 
-## License
-This project is licensed under the MIT License.
 
 ## Author
 [Anish](https://github.com/Xeven777)
