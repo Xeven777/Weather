@@ -53,4 +53,4 @@ You can customize this weather page in various ways:
 This project is licensed under the MIT License.
 
 ## Author
-[sanjeevidev](https://github.com/sanjeevidev)
+[Anish](https://github.com/Xeven777)
